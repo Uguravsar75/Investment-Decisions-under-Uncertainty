@@ -1,6 +1,6 @@
 # 📊 IxT 2026 Case Study — Belirsizlik Ortamında Bireysel Yatırım Kararları
 
-[![Pipeline CI](https://github.com/Uguravsar75/belirsizlik-ortaminda-yatirim-kararlari/actions/workflows/pipeline-ci.yml/badge.svg)](https://github.com/Uguravsar75/belirsizlik-ortaminda-yatirim-kararlari/actions/workflows/pipeline-ci.yml)
+[![Pipeline CI](https://github.com/Uguravsar75/Investment-Decisions-under-Uncertainty/actions/workflows/pipeline-ci.yml/badge.svg)](https://github.com/Uguravsar75/Investment-Decisions-under-Uncertainty/actions/workflows/pipeline-ci.yml)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-2.1%2B-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.8%2B-11557c)](https://matplotlib.org/)
