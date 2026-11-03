@@ -1,4 +1,4 @@
-# Python sanal ortamları ve derlenmiş dosyalar
+# Python virtual environments and bytecode cache
 .venv/
 venv/
 env/
@@ -6,7 +6,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# OS ve Editör dosyaları
+# OS and Editor files
 .DS_Store
 Thumbs.db
 .vscode/
@@ -15,7 +15,6 @@ Thumbs.db
 ~$*.pptx
 ~$*.xlsx
 
-# Geçici önbellekler
+# Temporary caches
 .matplotlib/
 .ipynb_checkpoints/
-
