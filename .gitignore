@@ -1,0 +1,21 @@
+# Python sanal ortamları ve derlenmiş dosyalar
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS ve Editör dosyaları
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+~$*.docx
+~$*.pptx
+~$*.xlsx
+
+# Geçici önbellekler
+.matplotlib/
+.ipynb_checkpoints/
+

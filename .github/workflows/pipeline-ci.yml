@@ -1,0 +1,43 @@
+name: Data Analysis Pipeline CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  verify-pipeline:
+    name: Run & Verify IxT 2026 Pipeline
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run analysis pipeline
+        run: |
+          python Document/analiz_python.py
+
+      - name: Verify generated outputs
+        run: |
+          test -f Document/veri_analiz.xlsx
+          test -f Document/grafikler/grafik1_enflasyon_faiz.png
+          test -f Document/grafikler/grafik2_reel_getiri.png
+          test -f Document/grafikler/grafik3_normalize_performans.png
+          test -f Document/grafikler/grafik4_korelasyon.png
+          test -f Document/grafikler/grafik5_senaryo_profil.png
+          test -f Document/grafikler/grafik6_portfoy.png
+          echo "All 6 charts and Excel workbook verified successfully!"
