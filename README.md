@@ -7,6 +7,8 @@
 [![Data Period](https://img.shields.io/badge/Data%20Period-Jan%202020%20%E2%80%93%20Apr%202026-1D9E75)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+**English** | [Türkçe](README.tr.md)
+
 **A 3–5 Year Retail Investment Framework in Türkiye | Macroeconomic Data Pipeline, Asset Correlation Matrix & Scenario-Based Portfolio Strategy (2020–2026)**
 
 This project empirically analyzes multiple macroeconomic and geopolitical shocks in Türkiye between **January 2020 and April 2026**—including the COVID-19 pandemic, currency crisis, Russia–Ukraine energy shock, aggressive monetary tightening cycle, disinflation/normalization, and the 2026 US–Israel–Iran conflict—to build a **profile-sensitive, scenario-driven decision support framework** for individual investors.
